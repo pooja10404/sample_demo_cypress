@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/padmarajnidagundi/Cypress-POM-Ready-To-Use"
+    "url": "git@github.com:pooja10404/sample_demo_cypress.git"
   },
   "keywords": [
     "cypress",
@@ -36,7 +36,9 @@
     "automation",
     "cypress-api"
   ],
-  "author": "Padmaraj Nidagundi",
-  "license": "MIT",
-  "homepage": "https://www.linkedin.com/in/padmarajn/"
+  "dependencies": {
+    "cypress": "^10.9.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1"
+  }
 }
